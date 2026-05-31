@@ -6,7 +6,7 @@ import pickle
 model = load_model('energy_consumption_model.keras')
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
-st.title("⚡ Energy Consumption Prediction")
+st.title("Energy Consumption Prediction")
 
 n_steps = 30
 
