@@ -6,7 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import SimpleRNN, Dense
 import pickle
 
-df=pd.read_csv(r"C:\Users\sahar\OneDrive\Desktop\ds and ml files\daily_energy_consumption.csv")
+df=pd.read_csv("daily_energy_consumption.csv")
 
 
 print(df.head())
