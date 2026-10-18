@@ -20,27 +20,11 @@ This project predicts the next day's energy consumption using a Recurrent Neural
 * Interactive Streamlit web application
 * Data scaling using MinMaxScaler
 
-## Installation
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Run the Application
 
 ```bash
 streamlit run deploy.py
 ```
-
-## Project Files
-
-* `model.py` - Model training script
-* `deploy.py` - Streamlit deployment file
-* `energy_consumption_model.keras` - Trained RNN model
-* `scaler.pkl` - Saved MinMaxScaler
-* `requirements.txt` - Required libraries
 
 ## Input
 
